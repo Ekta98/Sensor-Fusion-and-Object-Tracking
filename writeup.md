@@ -105,11 +105,11 @@ It was difficult to implement the camera- lidar fusion, as I had to implement th
 
 ## Benefits in Camera-Lidar Fusion tracking over Lidar-only tracking
 
-Different sensors perform differently in varying conditions like weather, time of the day, etc. Also different sensors may provide information that some other sensors dont. For ex. Camera gives color/ brightness etc info and images from camera are great for object detection and also classification. On the other hand Lidar performs better in low brightness /visibility or in blurry conditions such as foggy/rainy weather conditions. Lidar measurements which have accurate depth information. So, the fusion of cameras and lidars compensate their weaknesses. For stabilized object tracking, sensor fusion should combine multiple sensors. So camera data combined with Lidar can provide better results.
+Different sensors perform differently in varying conditions like weather, time of the day, etc. Also different sensors may provide information that some other sensors dont. For ex. Camera gives color/ brightness etc info and images from camera are great for object detection and also classification. On the other hand Lidar performs better in low brightness /visibility or in blurry conditions such as foggy/rainy weather conditions. Lidar measurements which have accurate depth information. So, the fusion of cameras and lidars compensate their weaknesses. For stabilized object tracking, sensor fusion should combine multiple sensors. So camera data combined with Lidar can provide better results. This is also seen in our results.
 
 ## Real-life challenges:
 
-A sensor-fusion systemcould be confronted with a variety of real-world issues such as :
+A sensor-fusion system could be confronted with a variety of real-world issues such as :
 
 - Multiple tracks and measurements provide a precise correlation. The thresholds for gatting should be properly set to avoid un-necessary wrong correlations.    
 - Sensor calibration is one area that would be challenging in real world, as in this project we are using a public dataset for this experiment, so it eliminates the need for sensor calibration as extrinsic parameters are already defined here.     
